@@ -1,0 +1,45 @@
+.table {
+  margin: 0 auto;
+}
+
+.table table {
+  width: 100%;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 25px 20px -25px rgba(0, 0, 0, 0.1);
+}
+
+.table table thead {
+  border-spacing: 0;
+}
+.table table thead td {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666;
+  padding: 10px;
+}
+.table table thead tr:nth-child(1) {
+  background-color: #fbfbfb;
+  background: linear-gradient(180deg, #fbfbfb 0%, #fbfbfb 89%, #ededed 100%);
+}
+.table table thead tr:nth-child(1) td:nth-child(1) {
+  border-radius: 10px 0 0 0;
+}
+.table table thead tr:nth-child(1) td:nth-last-child(1) {
+  border-radius: 0 10px 0 0;
+}
+.table table tbody tr {
+  transition: all 0.2s;
+}
+
+@media (max-width: 700px) {
+  .table {
+    width: 90%;
+  }
+}
+img {
+  width: 50px;
+  margin: auto;
+  padding: 0.2rem 0;
+}
